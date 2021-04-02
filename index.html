@@ -40,11 +40,16 @@
             gps-projected-entity-place="longitude: 37.8505381; latitude: 55.7461593"
             >
         </a-entity>
+        <a-entity
+            geometry="primitive: plane; height: auto; width: auto"
+            material="color: blue"
+            text="value: ДОМ МашиЪ what++; color: #BBB; font: new.fnt; fontImage: new.png">
+        </a-entity>
         <a-camera gps-projected-camera rotation-reader></a-camera>
 
         <!-- тест у себя с кубиками и все такое-->
 	</a-scene>
     <script>
-        console.log('font!');
+        console.log('текст на табличке!');
     </script>
 </body>
